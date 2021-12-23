@@ -1,0 +1,15 @@
+Program in C: The principle is described above, implementation in C is simplified:
+There is a sha1 hash that returns a string (I didn't find exactly the hashes I write about above in C).
+I have prepared an int list [12] for you, where you do not have to work with words, but with numbers: 1, 2, ... 12 (these numbers represent words, see comment).
+The function prepared by me will replace the given words according to these numbers.
+The numbers cannot be repeated in the list, each is there exactly once.
+Searched public key hash is: d99fa327540d376faf85ffb64bfe95c0191a428f (is entered in the code entry)
+
+!! Open the program via the project icon (not main), although it is C ++, but use the classic C commands (that's how I programmed it).
+You can implement everything only in the main.
+
+Tip: all options are 12! = 479 001 600, my algorithm / program will run all in about 35.5 minutes!
+To avoid the feeling that you have made a mistake and have an endless cycle, give yourself a progress bar, eg after each
+In 4,790,016 attempts, progress increases by 1 (1%).
+
+Interesting fact: If there were no condition that words / numbers cannot be repeated, my program would go through all the possibilities in about 1.25 years.

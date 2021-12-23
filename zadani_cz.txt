@@ -1,0 +1,16 @@
+Program v C: Princip je popsán výše, realizace v C je zjednodušena:
+Je zde sha1 hash, který vrací string (nenašel jsem v C přesně ty hashe, o kterých píšu výše). 
+Připravil jsem vám int seznam[12], kde nemusíte pracovat se slovy, ale čísly: 1, 2, ... 12 (tyto čísla zastupují slova, viz komentář).
+Mnou připravená funkce si podle těchto čísel daná slova dosadí.
+Čísla se v seznamu nemohou opakovat, každé je zde právě jednou. 
+Hledaný public key hash je: d99fa327540d376faf85ffb64bfe95c0191a428f (je vložen v zadání kódu)
+
+!! Program otevírejte přes ikonu projektu (ne main), jedná se sice o C++, ale používejte klasické příkazy C (tak jsem to i já programoval). 
+Vše můžete realizovat pouze v mainu.
+
+Rada: celkem všech možností je 12! = 479 001 600, můj algoritmus/program projede všechny za cca 35,5 minut! 
+Abyste neměli pocit, že jste udělali chybu a máte nekonečný cyklus, dejte si zde nějaký indikátor postupu, např. po každých
+4 790 016 pokusech se zvedne progress o 1 (1%).
+
+Zajímavost: Pokud by zde nebyla podmínka, že se slova/čísla nemohou opakovat, můj program by prošel všechny možnosti za cca 1,25 roku.
+
